@@ -1,19 +1,14 @@
 package balram.com.hackernews
-
-import android.graphics.Color
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Log
-import android.view.View
 import android.widget.ListView
 import balram.com.hackernews.Retrofit.RedditApi
-import balram.com.hackernews.Retrofit.RedditDataResponse
 import balram.com.hackernews.Retrofit.RedditNewsResponse
 import balram.com.hackernews.Retrofit.RetrofitServiceGSON
 import retrofit2.Call
 import retrofit2.Callback
 import retrofit2.Response
-import java.util.*
 
 class MainActivity : AppCompatActivity() {
 
