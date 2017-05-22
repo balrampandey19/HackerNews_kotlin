@@ -17,7 +17,6 @@ import balram.com.hackernews.Retrofit.RedditNewsResponse
 
 class NewsAdapter(internal var context: Context, internal var rowItems: List<RedditNewsResponse>) : BaseAdapter() {
 
-    /*private view holder class*/
     private inner class ViewHolder {
         internal var imageView: ImageView? = null
         internal var txtTitle: TextView? = null
