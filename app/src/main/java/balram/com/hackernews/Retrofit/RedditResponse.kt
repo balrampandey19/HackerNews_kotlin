@@ -1,7 +1,7 @@
 package balram.com.hackernews.Retrofit
 
 /**
- * Created by redcarpet on 5/22/17.
+ * Created by Balram Pandey
  */
 class RedditNewsResponse(val data: balram.com.hackernews.Retrofit.RedditDataResponse)
 
