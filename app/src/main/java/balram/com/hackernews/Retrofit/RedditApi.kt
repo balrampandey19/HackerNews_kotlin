@@ -1,6 +1,5 @@
-package com.droidcba.kedditbysteps.api
+package balram.com.hackernews.Retrofit
 
-import balram.com.hackernews.RedditNewsResponse
 import retrofit2.Call
 import retrofit2.http.GET
 import retrofit2.http.Query

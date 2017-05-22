@@ -1,17 +1,17 @@
-package balram.com.hackernews
+package balram.com.hackernews.Retrofit
 
 /**
  * Created by redcarpet on 5/22/17.
  */
-class RedditNewsResponse(val data: RedditDataResponse)
+class RedditNewsResponse(val data: balram.com.hackernews.Retrofit.RedditDataResponse)
 
 class RedditDataResponse(
-        val children: List<RedditChildrenResponse>,
+        val children: List<balram.com.hackernews.Retrofit.RedditChildrenResponse>,
         val after: String?,
         val before: String?
 )
 
-class RedditChildrenResponse(val data: RedditNewsDataResponse)
+class RedditChildrenResponse(val data: balram.com.hackernews.Retrofit.RedditNewsDataResponse)
 
 class RedditNewsDataResponse(
         val author: String,
