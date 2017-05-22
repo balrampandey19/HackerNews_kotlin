@@ -26,6 +26,7 @@ class MainActivity : AppCompatActivity() {
         call.enqueue(object : Callback<RedditNewsResponse> {
             override fun onResponse(call: Call<RedditNewsResponse>, response: Response<RedditNewsResponse>) {
                 if (!response.isSuccessful()) {
+
                     Log.e("Error", response.errorBody().toString())
                 } else {
 

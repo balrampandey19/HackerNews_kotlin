@@ -40,7 +40,6 @@ class NewsAdapter(internal var context: Context, internal var rowItems: List<Red
         }
 
         val rowItem = getItem(position) as RowItem
-
         holder.txtDesc!!.setText(rowItem.getDesc())
         holder.txtTitle!!.setText(rowItem.getTitle())
         holder.imageView!!.setImageResource(rowItem.getImageId())
