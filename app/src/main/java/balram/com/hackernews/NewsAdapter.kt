@@ -12,7 +12,7 @@ import android.widget.TextView
 import balram.com.hackernews.Retrofit.RedditNewsResponse
 
 /**
- * Created by redcarpet on 5/23/17.
+ * Created by Balram Pandey
  */
 
 class NewsAdapter(internal var context: Context, internal var rowItems: List<RedditNewsResponse>) : BaseAdapter() {
